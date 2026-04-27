@@ -139,7 +139,7 @@ class BaseRunner:
     def generate_voice_clone(
         self,
         text: str,
-        ref_audio: str | torch.Tensor,
+        ref_audio: str |  tuple[torch.Tensor, int],
         ref_text: str = "",
         language: str | None = None,
         *,
