@@ -30,7 +30,7 @@ dependencies = [
     "accelerate",
     "soundfile",
     "numpy",
-    "omnivoice>=0.1.5",
+    "omnivoice>=0.2.1",
     "sageattention",
     "huggingface-hub",
 ]
